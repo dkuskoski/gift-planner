@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        tools:context=".unauthorized.VerifyEmailActivity"
+        android:paddingTop="@dimen/row_size"
+        android:orientation="vertical"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:id="@+id/verify_email_wrapper">
+
+    <TextView
+            android:id="@+id/verify_email_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/verify_email_text"/>
+
+    <Button
+            android:id="@+id/resend_confirmation_mail"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_size"
+            android:layout_marginTop="@dimen/row_size"
+            android:background="@null"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/action_send_confirmation_mail"
+            android:layout_marginEnd="8dp"/>
+</LinearLayout>

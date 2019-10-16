@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">My Gifts</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email:</string>
+    <string name="prompt_password">Password:</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">
+        <u>Sign in</u>
+    </string>
+    <string name="action_register_short">
+        <u>Register</u>
+    </string>
+    <string name="action_sign_in_with">
+        <u>Sign in with</u>
+    </string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="title_activity_register">Register</string>
+    <string name="verify_email_text">E-mail with confirmation link has been sent to your e-mail address. If you have not
+        received it, click on resend button.\nYour e-mail address will only be used for profile security only!
+    </string>
+    <string name="action_send_confirmation_mail">
+        <u>Resend confirmation e-mail</u>
+    </string>
+    <string name="email_sent">Confirmation e-mail sent</string>
+    <string name="action_sign_out">
+        <u>Sign Out</u>
+    </string>
+    <string name="title">Title</string>
+    <string name="anonymous_text">I don\'t want to know who picked items</string>
+    <string name="public_text">Anyone with link can access</string>
+    <string name="gift">Gift</string>
+</resources>
